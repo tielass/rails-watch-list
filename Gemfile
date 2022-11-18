@@ -49,6 +49,8 @@ gem "sassc-rails" # Uncomment this line
 
 gem 'faker', :git => 'https://github.com/faker-ruby/faker.git', :branch => 'main'
 
+gem "dotenv-rails", groups: [:development, :test]
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
