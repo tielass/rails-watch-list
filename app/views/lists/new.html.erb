@@ -1,6 +1,8 @@
 <%= simple_form_for @list do |f| %>
   <%= f.input :name %>
-  <%= f.button :submit %>
+  <div class="container d-flex justify-content-center">
+  <%= f.button :submit, class:"btn btn-outline-dark m-3" %>
+  </div>
   <%= f.input :photo, as: :file %>
 <% end %>
 <div class="container d-flex justify-content-center">
